@@ -2,6 +2,7 @@
     .SYNOPSIS
     REMEDIATION SCRIPT
     Searches the registry for failed Win32 app installations from Intune and forces them to attempt installation again.
+    Base script by John Marcum. New version by preintune.
     
     .DESCRIPTION
     This script identifies failed Win32 app installations from Intune by searching the registry. If any failures are found,
@@ -143,7 +144,7 @@ function Remove-FailedAppRegistryKeys {
     }
 }
 
-<#
+<#+
     .SYNOPSIS
     Retrieves the username from an object ID.
     
@@ -176,7 +177,7 @@ function Get-UsernameFromObjectID {
     return $null
 }
 
-<#
+<#+
     .SYNOPSIS
     Retrieves the error description for a given error code.
     
