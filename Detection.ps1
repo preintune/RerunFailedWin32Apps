@@ -2,6 +2,7 @@
     .SYNOPSIS
      DETECTION SCRIPT
     Detects failed Win32 app installations from Intune.
+    Base script by John Marcum. New version by preintune.
 
     .DESCRIPTION
     This script identifies failed Win32 app installations from Intune by searching the registry.
